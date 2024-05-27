@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+body {
+    background: rgb(247,205,111);
+    background: linear-gradient(180deg, rgba(247,205,111,1) 14%, rgba(136,174,136,1) 38%, rgba(61,105,101,1) 60%, rgba(40,71,74,1) 83%, rgba(16,36,42,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.species-list-item img {
+    width: 100%;
+    height: auto;
+}
+
+.species-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0;
+}
+
+.species-list-item {
+    list-style: none;
+}
+
+a {
+    color: black !important; 
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.row {
+    align-items: center;
+}
