@@ -21,23 +21,32 @@
             <div class="col-md-6">
                 <ul class="species-list list-unstyled">
                     <li class="species-list-item">
-                        <img src="{{ url_for('static', filename='imgs/Kiwi.jpg')}}" alt="Kiwi">
-                        <figcaption>Kiwi</figcaption>
+                        <a href="{{ url_for('kiwi')}}">
+                            <img src="{{ url_for('static', filename='imgs/Kiwi.jpg')}}" alt="Kiwi">
+                            <figcaption>Kiwi</figcaption>
+                        </a>
                     </li>
                     <li class="species-list-item">
-                        <img src="{{ url_for('static', filename='imgs/kea.jpg')}}" alt="Kea">
-                        <figcaption>Kea</figcaption>
+                        <a href="{{ url_for('kea')}}">
+                            <img src="{{ url_for('static', filename='imgs/kea.jpg')}}" alt="Kea">
+                            <figcaption>Kea</figcaption>
+                        </a>
                     </li>
                     <li class="species-list-item">
-                        <img src="{{ url_for('static', filename='imgs/tuatara.jpg')}}" alt="Tuatara">
-                        <figcaption>Tuatara</figcaption>
+                        <a href="{{url_for('tuatara')}}">
+                            <img src="{{ url_for('static', filename='imgs/tuatara.jpg')}}" alt="Tuatara">
+                            <figcaption>Tuatara</figcaption>
+                        </a>
                     </li>
                     <li class="species-list-item">
-                        <img src="{{ url_for('static', filename='imgs/nzsealion.jpg')}}" alt="New Zealand Sea Lion">
-                        <figcaption>New Zealand Sea Lion</figcaption>
+                        <a href="{{url_for('nzsealion')}}">
+                            <img src="{{ url_for('static', filename='imgs/nzsealion.jpg')}}" alt="New Zealand Sea Lion">
+                            <figcaption>New Zealand Sea Lion</figcaption>
+                        </a>
                     </li>
                 </ul>
             </div>
+            
         </div>
     </div>
 </body>
