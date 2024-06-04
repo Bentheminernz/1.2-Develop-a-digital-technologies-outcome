@@ -25,6 +25,9 @@ def tuatara():
 @app.route('/NZsealion')
 def nzsealion():
     return render_template('animals/NZsealion.html')
+@app.route('/test')
+def test():
+    return render_template('carousel.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
