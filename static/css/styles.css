@@ -2,18 +2,23 @@
 
 * {
     font-family: "Roboto", sans-serif;
-    text-align: center;
 }
 
 body {
     background: rgb(247,205,111);
-    background: linear-gradient(180deg, rgba(247,205,111,1) 14%, rgba(136,174,136,1) 38%, rgba(61,105,101,1) 60%, rgba(40,71,74,1) 83%, rgba(16,36,42,1) 100%);
+    background: linear-gradient(180deg, rgba(247,205,111,1) 14%, rgba(136,174,136,1) 38%, rgba(61,105,101,1) 60%, rgba(40,71,74,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+nav {
+    background: white;
+}
+
 img {
     border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .species-list-item img {
@@ -32,9 +37,9 @@ img {
     list-style: none;
 }
 
-a {
-    color: black !important;
+div > a {
     text-decoration: none;
+    color: black !important;
 }
 
 header {
@@ -55,4 +60,30 @@ header {
     font-size: 17px !important;
     padding-left: 10px;
     font-weight: 500;
+}
+
+.section-one {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 50px 50px 50px 50px;
+}
+
+.section-two {
+    background-color: rgb(246, 245, 242);
+    text-align: left;
+    padding: 50px 50px 50px 50px;
+}
+
+.section-three {
+    background-color: blue;
+}
+
+.img-banner {
+    border-radius: 0px !important;
+}
+
+figcaption {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
