@@ -4,13 +4,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    background: rgb(247,205,111);
-    background: linear-gradient(180deg, rgba(247,205,111,1) 14%, rgba(136,174,136,1) 38%, rgba(61,105,101,1) 60%, rgba(40,71,74,1) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 nav {
     background: white;
 }
@@ -50,15 +43,8 @@ header {
     align-items: center;
 }
 
-.carousel {
-    width: 70% !important;
-    height: 70% !important;
-    margin: auto !important
-}
-
 .about-us {
     font-size: 17px !important;
-    padding-left: 10px;
     font-weight: 500;
 }
 
@@ -138,4 +124,17 @@ footer {
 
 .support-btn {
     margin-top: 20px;
+}
+
+.aboutus-one {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.aboutus-one > h1 {
+    border-bottom: solid 1px #00000044 !important;
 }
