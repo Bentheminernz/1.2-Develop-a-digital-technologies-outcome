@@ -1,0 +1,7 @@
+Banner Blue: #0ecfff
+Green beach colours:
+    #6ac5b9
+    #98ddb5
+    #cef0af
+    #eeffac
+    #ffdfae

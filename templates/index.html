@@ -10,43 +10,43 @@
     <title>Endangered Species</title>
 </head>
 <body>
-    {% include 'nav.html' %}
-    <img class="img-banner" src="{{url_for('static', filename='imgs/WebsiteBanner.png')}}">
+    {% include 'parts/nav.html' %}
+    <img class="img-banner" src="{{url_for('static', filename='imgs/banners/indexbanner.png')}}">
     <section class="section-one">
-        <h1>Our team in action!</h1>
+        <h1 class="line">Our team in action!</h1>
         <p>We have members of our team stationed all around Aotearoa! Dedicated to protecting the beautiful wildlife of our country</p>
         <br>
         <div class="container text-center">
             <div class="row">
                 <div class="col">
-                    <img class="main-page-img" src="{{url_for('static', filename='imgs/Work1.jpg')}}" alt="Kiwi">
+                    <img class="main-page-img" src="{{url_for('static', filename='imgs/work/Work1.jpg')}}">
                     <figcaption>Our researchers in the field gather data about the health of our environment</figcaption>
                 </div>
                 <div class="col">
-                    <img class="main-page-img" src="{{url_for('static', filename='imgs/Work2.jpg')}}" alt="Kiwi">
+                    <img class="main-page-img" src="{{url_for('static', filename='imgs/work/Work2.jpg')}}">
                     <figcaption>Our skilled conservationists return Kiwi back into the wild</figcaption>
                 </div>
                 <div class="col">
-                    <img class="main-page-img" src="{{url_for('static', filename='imgs/Work3.jpg')}}" alt="Kiwi">
+                    <img class="main-page-img" src="{{url_for('static', filename='imgs/work/Work3.jpg')}}">
                     <figcaption>Our team celebrating the increase of Kākāpō population in the wild</figcaption>
                 </div>
             </div>
         </div>
     </section>
     <section class="section-two">
-        <h1>Who are we?</h1>
+        <h1 class="line">Who are we?</h1>
         <p>Founded in 1997 we are the Aotearoa Conservation Alliance, we've successfully boosted population of many endangered Aotearoa Native Species</p>
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-6">
                     <div class="icon-text-container">
-                        <img src="{{url_for('static', filename='imgs/paws.png')}}" class="icon">
+                        <img src="{{url_for('static', filename='imgs/icons/paws.png')}}" class="icon">
                         <p>We have successfully returned many native species to the wild and increased the population of Kiwi by 100%, Kea by 150% and Kākāpō by 50%</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="icon-text-container">
-                        <img src="{{url_for('static', filename='imgs/Groups.png')}}" class="icon">
+                        <img src="{{url_for('static', filename='imgs/icons/Groups.png')}}" class="icon">
                         <p>We are an inclusive and diverse team who all look out for one another and are proud of the work we do to protect our beautiful Aotearoa</p>
                     </div>
                 </div>
@@ -54,13 +54,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="icon-text-container">
-                        <img src="{{url_for('static', filename='imgs/Safety.png')}}" class="icon">
+                        <img src="{{url_for('static', filename='imgs/icons/Safety.png')}}" class="icon">
                         <p>We ensure that animals return safely to the wild and have extensive procedures in place to protect our species from endangerement or extinction</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="icon-text-container">
-                        <img src="{{url_for('static', filename='imgs/Globe.png')}}" class="icon">
+                        <img src="{{url_for('static', filename='imgs/icons/Globe.png')}}" class="icon">
                         <p>And we do all of this while still caring for our environment and ensuring we don't do stuff that can put other species at risk</p>
                     </div>
                 </div>
@@ -69,13 +69,13 @@
         <a href="{{url_for('about')}}" class="btn btn-primary" tabindex="-1" role="button">Learn more about us!</a>
     </section>
     <section class="section-three">
-        <h1>Donate & Support!</h1>
+        <h1 class="line">Donate & Support!</h1>
         <p>Help us continue our work by donating to or joining our cause!</p>
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg">
                     <h2>Want to donate?</h2>
-                    <img class="support-img" src="{{url_for('static', filename='imgs/Donate.png')}}">
+                    <img class="support-img" src="{{url_for('static', filename='imgs/icons/Donate.png')}}">
                     <br>
                     <button type="button" class="btn btn-success btn-lg support-btn" data-bs-toggle="modal" data-bs-target="#donateModal">Donate!</button>
                     <div class="modal fade" id="donateModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="donateModalLabel" aria-hidden="true">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-lg">
                     <h2>Want to join our team?</h2>
-                    <img class="support-img" src="{{url_for('static', filename='imgs/join.png')}}">
+                    <img class="support-img" src="{{url_for('static', filename='imgs/icons/join.png')}}">
                     <br>
                     <button type="button" class="btn btn-success btn-lg support-btn" data-bs-toggle="modal" data-bs-target="#joinModal">Join Us!</button>
                     <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
@@ -120,6 +120,6 @@
             </div>
         </div>
     </section>
-    {% include 'footer.html' %}
+    {% include 'parts/footer.html' %}
 </body>
 </html>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
 * {
     font-family: "Roboto", sans-serif;
@@ -120,6 +121,7 @@ footer {
     max-width: 150px !important;
     max-height: 150px !important;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    margin-top: 20px;
 }
 
 .support-btn {
@@ -131,10 +133,59 @@ footer {
     text-align: left;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 227.5px;
+    padding-right: 227.5px;
 }
 
-.aboutus-one > h1 {
-    border-bottom: solid 1px #00000044 !important;
+.line {
+    border-bottom: solid 1px #00000050 !important;
+}
+
+.aboutus-two {
+    background: rgb(106,197,185);
+    background: linear-gradient(90deg, rgba(106,197,185,1) 0%, rgba(152,221,181,1) 50%, rgba(206,240,175,1) 100%);
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutus-two-text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.aboutus-three {
+    background-color: rgb(246, 245, 242);
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 227.5px;
+    padding-right: 227.5px;
+}
+
+.link {
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: underline;
+    color: blue !important; 
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.carousel-caption-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Gabarito', 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+.d-block {
+    border-radius: 0px !important;
 }

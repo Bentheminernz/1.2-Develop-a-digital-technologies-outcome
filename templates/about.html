@@ -9,20 +9,50 @@
     <title>Document</title>
 </head>
 <body>
-    {% include 'nav.html' %}
-    <img class="img-banner" src="{{url_for('static', filename='imgs/about.png')}}">
+    {% include 'parts/nav.html' %}
+    <img class="img-banner" src="{{url_for('static', filename='imgs/banners/aboutbanner.png')}}">
     <section class="aboutus-one">
-        <h1>Who we are</h1>
+        <h1 class="line">Who we are</h1>
         <p>Since 1997 we have been a passionate advocate for the preservartion and conservation of Aotearoa's unique native species and ecosystems.</p>
-        <p>As Aotearoas biggest conservation organization we have one mission that is simple yet profound: to protect and restore the delicate balance of our ecosystems by preserving the habitats and populations of native flora and fauna. We strive to inspire collective action towards a sustainble future, where both humans and wildlife thrive.</p>
+        <!-- <p>As Aotearoas biggest conservation organization we have one mission that is simple yet profound: <b>to protect and restore the delicate balance of our ecosystems</b> by preserving the habitats and populations of native flora and fauna. We strive to inspire collective action towards a sustainble future, where both humans and wildlife thrive.</p> -->
+        <p>Our dedicated team of scientists, conservationists, volunteers, and supporters collaborate across disciplines and communities to implement effective strategies for species recovery and habitat preservation. Through innovative projects, partnerships, and public outreach, we strive to empower individuals and organizations to become stewards of our precious natural heritage.</p>
+        <p>Together, we can make a difference. Join us in our commitment to safeguarding New Zealand's native species for generations to come. Together, let's ensure that our land remains a sanctuary for biodiversity and a source of inspiration for all.</p>
+        <p>Thank you for supporting Aotearoa Conservation Alliance in our vital mission to protect and preserve the unique wonders of Aotearoa. Together, we can create a future where nature thrives and Aotearoa's native species continue to enchant and inspire us all.</p>
     </section>
-    <!-- <div class="text-background">
-        <p class="about-us">Founded in 1997, Aotearoa Conservation Alliance, is a passionate advocate for the preservation and conservation of New Zealand's unique native species. Nestled in the heart of Aotearoa, we are dedicated to safeguarding the rich biodiversity that makes our islands so extraordinary.</p>
-        <p class="about-us">Our mission is simple yet profound: to protect and restore the delicate balance of our ecosystems by preserving the habitats and populations of native flora and fauna. With a focus on stewardship, education, and community engagement, we strive to inspire collective action towards a sustainable future where both humans and wildlife thrive in harmony.</p>
-        <p class="about-us">From the rugged coastlines to the verdant forests and sweeping plains, New Zealand is home to an array of remarkable species found nowhere else on Earth. Yet, many face threats from habitat loss, invasive species, and human activities. At Aotearoa Conservation Alliance, we recognize the urgency of these challenges and work tirelessly to address them through research, advocacy, and on-the-ground conservation efforts.</p>
-        <p class="about-us">Our dedicated team of scientists, conservationists, volunteers, and supporters collaborate across disciplines and communities to implement effective strategies for species recovery and habitat preservation. Through innovative projects, partnerships, and public outreach, we strive to empower individuals and organizations to become stewards of our precious natural heritage.</p>
-        <p class="about-us">Together, we can make a difference. Join us in our commitment to safeguarding New Zealand's native species for generations to come. Together, let's ensure that our land remains a sanctuary for biodiversity and a source of inspiration for all.</p>
-        <p class="about-us">Thank you for supporting Aotearoa Conservation Alliance in our vital mission to protect and preserve the unique wonders of Aotearoa. Together, we can create a future where nature thrives and New Zealand's native species continue to enchant and inspire us all.</p>
-    </div> -->
+    <section class="aboutus-two">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h2>Our Mission</h2>
+                    <p class="aboutus-two-text">Our mission is simple yet profound: <b>to protect and restore the delicate balance of our ecosystems</b> by preserving the habitats and populations of native flora and fauna.</p>
+                </div>
+                <div class="col">
+                    <h2>Our Goal</h2>
+                    <p class="aboutus-two-text">A sustainble & brighter future for us all, ensuring that our land remains a sanctuary for biodiversity and cultivate a bigger better tomorrow, <b>an Aotearoa where both humans and wildlife thrive.</b></p>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="aboutus-three">
+        <h1 class="line">Contact Us!</h1>
+        <br>
+        <div class="row text-center">
+            <div class="col">
+                <h3>Our Headquarters</h3>
+                <p>123 Animal Road<br>Papatoetoe, Auckland, 2025</p>
+            </div>
+            <div class="col">
+                <h3>Phone Number</h3>
+                <p>0800 123 456</p>
+                <br>
+            </div>
+            <div class="col">
+                <h3>Email</h3>
+                <a class="link" href="mailto: contact@aca.com">contact@aca.com</a>
+                <br>
+            </div>
+        </div>
+    </section>
+    {% include 'parts/footer.html' %}
 </body>
 </html>
