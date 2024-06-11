@@ -30,5 +30,9 @@ def nzsealion():
 def credits():
     return render_template('other/credits.html')
 
+@app.route('/test')
+def test():
+    return render_template('test.html')
+
 if __name__ == '__main__':
     app.run(debug=True, port=5500)

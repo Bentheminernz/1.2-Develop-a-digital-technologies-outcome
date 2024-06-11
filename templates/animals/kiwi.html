@@ -11,6 +11,39 @@
 <body>
     {% include 'parts/nav.html' %}
     {% include 'carousels/kiwicarousel.html' %}
+    <section class="section-one">
+        <div class="bg-light p-5 m-3 jumbotron">
+            <h1 class="line text-center ">Facts!</h1>
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/Appearance.png')}}" class="icon">
+                            <p>Keas are like green and stuff</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/habitat.png')}}" class="icon">
+                            <p>They live in mountain</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/history.png')}}" class="icon">
+                            <p>They been around for AGES</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/trenddown.png')}}" class="icon">
+                            <p>They dying :(</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     {% include 'parts/footer.html' %}
 </body>
 </html>

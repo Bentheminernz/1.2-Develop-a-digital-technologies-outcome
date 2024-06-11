@@ -6,13 +6,48 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
-    <title>Document</title>
+    <title>ACA - Kea</title>
 </head>
 <body>
     {% include 'parts/nav.html' %}
     {% include 'carousels/keacarousel.html' %}
     <section class="section-one">
-        <h1 class="line">Facts</h1>
+        <div class="bg-light p-5 m-3 jumbotron">
+            <h1 class="line text-center ">Facts!</h1>
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/Appearance.png')}}" class="icon">
+                            <h6>Appearance</h6>
+                            <p>The Kea is a parrot </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/habitat.png')}}" class="icon">
+                            <p>They live in mountain</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/history.png')}}" class="icon">
+                            <p>They been around for AGES</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/trenddown.png')}}" class="icon">
+                            <p>They dying :(</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-two">
+        <h1 class="line">What are we doing?</h1>
+        <p>We have dedicated extensive resources to the preservation of the Kea and their habitat</p>
     </section>
     {% include 'parts/footer.html' %}
 </body>
