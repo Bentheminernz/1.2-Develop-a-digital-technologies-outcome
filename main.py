@@ -26,10 +26,6 @@ def tuatara():
 def nzsealion():
     return render_template('animals/NZsealion.html')
 
-@app.route('/credits')
-def credits():
-    return render_template('other/credits.html')
-
 @app.route('/test')
 def test():
     return render_template('test.html')
