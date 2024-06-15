@@ -11,6 +11,38 @@
 <body>
     {% include 'parts/nav.html' %}
     {% include 'carousels/tuataracarousel.html' %}
+    <section class="section-one">
+        <div class="bg-light p-5 m-3 jumbotron">
+            <h1 class="line text-center ">Facts!</h1>
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/Appearance.png')}}" class="icon">
+                            <p>Tuataras are reptilian creatures resembling lizards, with distinctively rough, spiny scales along their backs and tails. Typically, tuataras are olive green or brownish-gray in color, blending well with their natural forest and rocky habitat.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/habitat.png')}}" class="icon">
+                            <p>Tuataras inhabit the coastal forests and scrublands of New Zealand's offshore islands, where they find shelter in burrows often shared with seabirds. These reptiles thrive in cool, temperate environments and require stable, undisturbed ecosystems to maintain their populations.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/history.png')}}" class="icon">
+                            <p>Tuataras have a fascinating history in New Zealand, where they are considered living fossils, having remained virtually unchanged for millions of years. They were once widespread across the mainland but are now mainly found on predator-free offshore islands due to habitat destruction and introduced predators like rats and cats.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text-container">
+                            <img src="{{url_for('static', filename='imgs/icons/kea/trenddown.png')}}" class="icon">
+                            <p>The decline in tuatara populations in New Zealand is primarily attributed to habitat destruction, including deforestation and urban development. Additionally, introduced predators such as rats, cats, and stoats have had a significant impact on their numbers, preying on tuataras and their eggs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     {% include 'parts/footer.html' %}
 </body>
 </html>
