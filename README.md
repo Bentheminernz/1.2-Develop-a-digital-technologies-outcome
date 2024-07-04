@@ -18,4 +18,4 @@ To download the code click Code --> Download ZIP or in your terminal type in ```
 
  - [Flask](https://github.com/pallets/flask)
  - [Bootstrap (Website)](https://getbootstrap.com) - [Bootstrap (GitHub)](https://github.com/twbs/bootstrap)
- - [Google Fonts (Website)](fonts.google.com) - [Google Fonts (Github)](https://github.com/google/fonts)
+ - [Google Fonts (Website)](https://fonts.google.com) - [Google Fonts (Github)](https://github.com/google/fonts)
