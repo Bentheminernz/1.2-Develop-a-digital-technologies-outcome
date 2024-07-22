@@ -210,3 +210,13 @@ footer {
     color: white;
     margin: 0px !important; 
 }
+
+.float {
+    filter: drop-shadow(0 2rem 6rem rgba(0, 0, 0, 0.250));
+    transition: transform 0.5s, box-shadow 0.5s, filter 0.5s;
+}
+
+.float:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0 2.5rem 7rem rgba(0, 0, 0, 0.450));
+}

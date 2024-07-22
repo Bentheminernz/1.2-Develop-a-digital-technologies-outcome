@@ -22,9 +22,9 @@ def kea():
 def tuatara():
     return render_template('animals/tuatara.html')
 
-@app.route('/NZsealion')
+@app.route('/nzsealion')
 def nzsealion():
-    return render_template('animals/NZsealion.html')
+    return render_template('animals/nzsealion.html')
 
 if __name__ == '__main__':
     app.run(debug=True, port=5500)

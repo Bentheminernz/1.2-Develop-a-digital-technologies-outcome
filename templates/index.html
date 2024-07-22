@@ -18,15 +18,15 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col">
-                    <img class="main-page-img" src="{{url_for('static', filename='imgs/work/Work1.jpg')}}">
+                    <img class="main-page-img float" src="{{url_for('static', filename='imgs/work/Work1.jpg')}}">
                     <figcaption>Our researchers in the field gather data about the health of our environment</figcaption>
                 </div>
                 <div class="col">
-                    <img class="main-page-img" src="{{url_for('static', filename='imgs/work/Work2.jpg')}}">
+                    <img class="main-page-img float" src="{{url_for('static', filename='imgs/work/Work2.jpg')}}">
                     <figcaption>Our skilled conservationists return Kiwi back into the wild</figcaption>
                 </div>
                 <div class="col">
-                    <img class="main-page-img" src="{{url_for('static', filename='imgs/work/Work3.jpg')}}">
+                    <img class="main-page-img float" src="{{url_for('static', filename='imgs/work/Work3.jpg')}}">
                     <figcaption>Our team celebrating the increase of Kākāpō population in the wild</figcaption>
                 </div>
             </div>
@@ -38,13 +38,13 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-6">
-                    <div class="icon-text-container">
+                    <div class="icon-text-container float">
                         <img src="{{url_for('static', filename='imgs/icons/paws.png')}}" class="icon">
                         <p>We have successfully returned many native species to the wild and increased the population of Kiwi by 100%, Kea by 150% and Kākāpō by 50%</p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="icon-text-container">
+                    <div class="icon-text-container float">
                         <img src="{{url_for('static', filename='imgs/icons/Groups.png')}}" class="icon">
                         <p>We are an inclusive and diverse team who all look out for one another and are proud of the work we do to protect our beautiful Aotearoa</p>
                     </div>
@@ -52,13 +52,13 @@
             </div>
             <div class="row mb-4">
                 <div class="col-md-6">
-                    <div class="icon-text-container">
+                    <div class="icon-text-container float">
                         <img src="{{url_for('static', filename='imgs/icons/Safety.png')}}" class="icon">
                         <p>We ensure that animals return safely to the wild and have extensive procedures in place to protect our species from endangerement or extinction</p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="icon-text-container">
+                    <div class="icon-text-container float">
                         <img src="{{url_for('static', filename='imgs/icons/Globe.png')}}" class="icon">
                         <p>And we do all of this while still caring for our environment and ensuring we don't do stuff that can put other species at risk</p>
                     </div>
@@ -74,15 +74,14 @@
             <div class="row">
                 <div class="col-lg">
                     <h2>Want to donate?</h2>
-                    <img class="support-img" src="{{url_for('static', filename='imgs/icons/Donate.png')}}">
+                    <img class="support-img float" src="{{url_for('static', filename='imgs/icons/Donate.png')}}">
                     <br>
                     <button type="button" class="btn btn-success btn-lg support-btn" data-bs-toggle="modal" data-bs-target="#donateModal">Donate!</button>
-                    <div class="modal fade" id="donateModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="donateModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="donateModal" tabindex="-1" aria-labelledby="donateJoinModal" aria-hidden="true">
                             <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Thank You!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <p>Thank you so much for your generosity! We deeply appreciate your contribution towards the Aotearoa Conservation Alliance!</p>
@@ -96,7 +95,7 @@
                 </div>
                 <div class="col-lg">
                     <h2>Want to join our team?</h2>
-                    <img class="support-img" src="{{url_for('static', filename='imgs/icons/join.png')}}">
+                    <img class="support-img float" src="{{url_for('static', filename='imgs/icons/join.png')}}">
                     <br>
                     <button type="button" class="btn btn-success btn-lg support-btn" data-bs-toggle="modal" data-bs-target="#joinModal">Join Us!</button>
                     <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
@@ -104,7 +103,6 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">Thank You!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <p>Thank you for deciding to join us! Unfortunetaly applications are currently closed as we have an overwhelming amount of applicants!</p>
