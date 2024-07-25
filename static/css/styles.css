@@ -220,3 +220,8 @@ footer {
     transform: scale(1.03);
     filter: drop-shadow(0 2.5rem 7rem rgba(0, 0, 0, 0.450));
 }
+
+.google-embed {
+    border-radius: 20px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
