@@ -247,3 +247,43 @@ footer {
         flex-direction: column;
     }
 }
+
+.text-align {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 30px; /* Increase the top padding */
+    padding-bottom: 30px; /* Increase the bottom padding */
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer .row {
+    justify-content: center; /* Center-align the content horizontally */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the items take up the full height of their container */
+    margin-bottom: 0; /* Remove unnecessary margins */
+    padding: 0; /* Remove padding to ensure alignment */
+}
+
+.footer-item p, .footer-item a {
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+    line-height: 1.5; /* Ensure consistent line height */
+}
+
+
+.footer-link {
+    color: white !important;
+    display: inline-block; /* Limit the clickable area to the text */
+    margin-bottom: 0; /* Remove unnecessary margins */
+    padding: 5px; /* Optional: add some padding to the link */
+}
